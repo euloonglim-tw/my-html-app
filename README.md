@@ -16,7 +16,7 @@ Simple html app with scss used to test _Impact-X_ styles and web components.
 
     `yarn --version`
 
-4. Start a new project (this creates/updates the package.json), press enter to choose the deault options.
+4. Start a new project (this creates/updates the package.json), keep pressing enter to choose the default options.
 
     `yarn init`
 
@@ -26,17 +26,13 @@ Simple html app with scss used to test _Impact-X_ styles and web components.
 
 6. Check the version of node-sass installed by using:
 
-    `node-sass -v`
-
-    or (depending on PATH status)
-
-    `node_modules/.bin/node-sass -v`
+    `node-sass -v` or (depending on PATH status) `node_modules/.bin/node-sass -v`
 
 7. Add live-server, this is used to create a local server for the app:
 
     `yarn add live-server`
 
-8. Don't make changes to the style in the main.css file, use the main.scss file. You can now run the `sass` script from the package.json file to compile the main.scss file into the main.css file by use of node-sass:
+8. Don't make changes to the style in the main.css file, use the main.scss file. You can now run the `sass` script from the package.json file to compile the main.scss file into the main.css file by the use of node-sass:
 
     `yarn sass`
 
