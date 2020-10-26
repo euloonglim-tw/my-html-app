@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "sass": "node_modules/.bin/node-sass sass/main.scss public/css/main.css"
+    "sass": "node_modules/.bin/node-sass sass/main.scss public/css/main.css",
+    "server": "live-server --open=public"
   },
   "repository": "git@github.com-thoughtworks_euloonglim:euloonglim-tw/my-html-app.git",
   "author": "Eu-Loong Lim <euloong.lim@thoughtworks.com>",
