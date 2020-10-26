@@ -1,0 +1,15 @@
+{
+  "name": "my-html-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node_modules/.bin/node-sass sass/main.scss public/css/main.css"
+  },
+  "repository": "git@github.com-thoughtworks_euloonglim:euloonglim-tw/my-html-app.git",
+  "author": "Eu-Loong Lim <euloong.lim@thoughtworks.com>",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.14.1"
+  }
+}
