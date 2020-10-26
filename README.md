@@ -2,6 +2,11 @@
 
 Simple html app with scss used to test _Impact X_ styles and web components.
 
+### Prerequisites
+
+- Node 14 or higher
+- Yarn 1.22.4 or higher
+
 ### Installation
 
 1. Clone the repo using https: 
