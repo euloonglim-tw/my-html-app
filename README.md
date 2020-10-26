@@ -8,23 +8,19 @@ Simple html app with scss used to test _Impact-X_ styles and web components.
 
     `git clone https://github.com/euloonglim-tw/my-html-app.git`
 
-2. Check that node is installed:
+2. Check that node is installed (if it is not installed, [install node](https://nodejs.org/en/download/package-manager/)):
 
     `node -v`
 
-if it is not installed, [install node](https://nodejs.org/en/download/package-manager/)
-
-3. Check that yarn is installed:
+3. Check that yarn is installed (if not, [install yarn](https://classic.yarnpkg.com/en/docs/install/)):
 
     `yarn --version`
-
-if not, [install yarn](https://classic.yarnpkg.com/en/docs/install/)
 
 4. Start a new project (this creates/updates the package.json), press enter to choose the deault options.
 
     `yarn init`
 
-5. Install node-sass (needed for using sass, this creates a yarn.lock and installs the node_modules).
+5. Install node-sass (needed for using sass, this creates a yarn.lock file and installs the node_modules).
 
     `yarn add node-sass`
 
@@ -40,7 +36,7 @@ if not, [install yarn](https://classic.yarnpkg.com/en/docs/install/)
 
     `yarn add live-server`
 
-8. Don't make changes to the style in the main.css file, use the main.scss file. You can now run the sass script from the package.json file to compile the main.scss file into the main.css file by use of node-sass:
+8. Don't make changes to the style in the main.css file, use the main.scss file. You can now run the `sass` script from the package.json file to compile the main.scss file into the main.css file by use of node-sass:
 
     `yarn sass`
 
