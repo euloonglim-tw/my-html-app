@@ -1,6 +1,6 @@
 ### Introduction
 
-Simple html app with scss used to test _Impact-X_ styles and web components.
+Simple html app with scss used to test _Impact X_ styles and web components.
 
 ### Installation
 
