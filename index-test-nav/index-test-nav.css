@@ -1,0 +1,27 @@
+html {
+    height: 100vh;
+}
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+header {
+    position: sticky;
+    top: 0;
+}
+main {
+    flex-grow: 1;
+}
+main > p {
+    margin-left: 1em;
+    margin-bottom: 1000px;
+}
+footer {
+    background: #11aa58;
+    color: white;
+}
+footer > p {
+    margin-left: 1em;
+}
